@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700;900&display=swap');
+
+.topbar__row{
+display: flex;
+align-items: center;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+.topbar__leftRow{
+flex: 3;
+font-size: 40px;
+}
+
+.topbar__middleRow{
+    flex: 6;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    font-size: 18px;
+}
+
+.topbar__middleRow > h3{
+    border: 1px solid black;
+    padding: 1%;
+}
+
+.topbar__rightRow{
+    flex: 3;
+    display: flex;
+   justify-content: flex-end;
+   padding-right: 10%;
+
+}
+
+.topbar__rightRow  > span{
+    padding: 2%;
+}
